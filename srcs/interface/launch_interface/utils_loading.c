@@ -34,7 +34,6 @@ void			die(const char *fmt, ...)
 
 	va_start(ap, fmt);
 	va_end(ap);
-	fputs("\n", stderr);
 	exit(EXIT_FAILURE);
 }
 
